@@ -64,3 +64,66 @@ public class TigaLoop {
     }
 }
 
+/*
+
+nomor 2:
+
+ * ===================== HASIL EKSEKUSI =====================
+ *
+ * --- Run pertama, n = 5 ---
+ *
+ * Batas deret (n) : 5
+ *
+ * ===== SATU DERET, TIGA LOOP =====
+ * for      : 1 2 3 4 5
+ * while    : 1 2 3 4 5
+ * do-while : 1 2 3 4 5
+ *
+ * i <  n berputar : 4 kali
+ * i <= n berputar : 5 kali
+ * Disaring : 1 3 5 7
+ * Sampai println  : 4 kali
+ *
+ * --- Run kedua, n = 0 ---
+ *
+ * Batas deret (n) : 0
+ *
+ * ===== SATU DERET, TIGA LOOP =====
+ * for      :
+ * while    :
+ * do-while : 1
+ *
+ * i <  n berputar : 0 kali
+ * i <= n berputar : 0 kali
+ * Disaring : 1 3 5 7
+ * Sampai println  : 4 kali
+ *
+ * KESIMPULAN: do-while mengecek kondisinya sesudah badan loop dijalankan,
+ * jadi badannya pasti jalan minimal sekali.
+ *
+ * ---------------------------------------------------------
+*/
+
+/*
+nomor 3
+
+Batas deret (n) : 5
+
+===== SATU DERET, TIGA LOOP =====
+for      : 1 2 3 4 5
+while    : 1 2 3 4 5
+do-while : 1 2 3 4 5
+
+i <  n berputar : 4 kali
+i <= n berputar : 5 kali
+Disaring : 1 3 5 7
+Sampai println  : 4 kali
+ */
+
+
+/*
+nomor 5
+
+ * Penjelasan: continue dieksekusi lebih dulu untuk angka genap, jadi
+ * saat i = 8 pengecekan i > 7 terlewati. break baru jalan di i = 9.
+*/
